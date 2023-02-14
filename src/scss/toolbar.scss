@@ -2,5 +2,16 @@
 @import "mixins";
 
 .excel__toolbar {
+  position: absolute;
+  top: $header-height;
+  right: 0;
+  left: 0;
+  height: $toolbar-height;
+  padding: 16px 4px 16px 10px;
+  border-top: 2px solid #8c8981;
+  border-bottom: 2px solid #8c8981;
+}
 
+.button{
+  @include button(green);
 }

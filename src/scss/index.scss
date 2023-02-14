@@ -6,7 +6,6 @@
 @import "formula";
 @import "table";
 
-$red: wheat;
 * {
   padding: 0;
   margin: 0;
@@ -16,7 +15,6 @@ $red: wheat;
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
-  background: $red;
 }
 
 excel {
